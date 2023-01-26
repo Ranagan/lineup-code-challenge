@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from services import get_user_data
+from app.services import get_user_data
 
 
 app = FastAPI()
