@@ -23,5 +23,5 @@ function User() {
 
   const userDetails = UserDetails(parseInt(userID!));
 
-  return <>{userDetails}</>;
+  return <div>{userDetails}</div>;
 }
