@@ -6,9 +6,7 @@ from services import get_user_data
 
 app = FastAPI()
 
-origins = [
-    "http://localhost:3000"
-]
+origins = ["http://localhost:3000"]
 
 app.add_middleware(CORSMiddleware, allow_origins=origins)
 
